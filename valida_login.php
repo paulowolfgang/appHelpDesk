@@ -2,6 +2,12 @@
 
 	//echo "Lógica ok!";
 
+	session_start();
+
+	//$_SESSION['x'] = 'Olá, sou um valor de sessão!';
+	print_r($_SESSION);
+	echo '<hr/>';
+
 	// variável para verificar se a autenticação teve sucesso
 	$usuario_autenticado = false;
 
@@ -35,8 +41,10 @@
 
 	if($usuario_autenticado){
 		echo 'Usuário autenticado!';
+		$_SESSION['autenticado'] = 'SIM';
 	}else{
 		// echo 'Erro na autenticação do usuário!';
+		$_SESSION['autenticado'] = 'NAO';
 		header('Location: index.php?login=erro');
 	}
 
