@@ -42,6 +42,8 @@
 	if($usuario_autenticado){
 		echo 'Usuário autenticado!';
 		$_SESSION['autenticado'] = 'SIM';
+		$_SESSION['x'] = 'Um valor';
+		$_SESSION['y'] = 'Outro valor';
 		header('Location: home.php');
 	}else{
 		// echo 'Erro na autenticação do usuário!';
