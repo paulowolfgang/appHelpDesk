@@ -1,3 +1,2 @@
-Notebook não liga#Hardware#Tento ligar e bla bla bla
-Erro de impressão#Impressora#Tento imprimir e bla bla bla
-Telefone não funciona#Rede#Tento ligar e bla bla bla
+1#Notebook não liga#Hardware#Tento ligar e bla bla bla
+4#Erro de impressão#Impressora#Tente imprimir e bla bla bla
