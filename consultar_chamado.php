@@ -2,6 +2,18 @@
   require_once "validador_acesso.php";
 ?>
 
+<?php
+  
+  // abrir o arquivo de texto
+  $arquivo = fopen('arquivo.txt', 'r');
+
+  // percorre o arquivo enquanto houver registros
+  while (feof()) { // função que testa pelo fim de um arquivo
+    
+  }
+
+?>
+
 <html>
   <head>
     <meta charset="utf-8" />
